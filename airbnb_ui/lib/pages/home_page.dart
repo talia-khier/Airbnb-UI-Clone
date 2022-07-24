@@ -1,3 +1,4 @@
+import 'package:airbnb_ui/widgets/hero_banner.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
