@@ -1,6 +1,7 @@
 import 'package:airbnb_ui/widgets/city_widgets.dart';
 import 'package:airbnb_ui/widgets/header.dart';
 import 'package:airbnb_ui/widgets/hero_banner.dart';
+import 'package:airbnb_ui/widgets/live_anywhere_widgets.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -20,7 +21,9 @@ class _HomePageState extends State<HomePage> {
             slivers: <Widget>[
               HeroBanner(),
               Header(text: "Explore Nearby"),
-              CitiesGrid()
+              CitiesGrid(),
+              Header(text: "Live AnyWhere"),
+              LiveAnyWhereList()
             ],
           )
         ],

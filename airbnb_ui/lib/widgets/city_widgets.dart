@@ -40,7 +40,6 @@ class CityCard extends StatelessWidget {
   }
 }
 
-/// `CitiesGrid` is a `StatelessWidget` that displays a `GridView` of `CityCard`s
 class CitiesGrid extends StatelessWidget {
   const CitiesGrid({Key? key}) : super(key: key);
 
